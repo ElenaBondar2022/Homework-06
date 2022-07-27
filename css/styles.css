@@ -546,6 +546,59 @@ color: #FFFFFF;
   fill: var(--background-color);
 }
 
+.footer-subscription {
+  margin-left: 93px;
+}
+
+.footer-form {
+  display: flex;
+  min-width: 570px;
+}
+
+.input-subscription {
+  padding-left: 16px;
+  min-width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.btn-subscription {
+  position: relative;
+  margin-left: 12px;
+  min-width: 200px;
+  padding: 10px 62px 10px 29px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.subscription-icon {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+}
+
+
+
 /* Портфолио */
 
 .hiden-title {
