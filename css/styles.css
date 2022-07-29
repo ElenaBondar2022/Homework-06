@@ -289,7 +289,7 @@ border-radius: 4px;
 
 .form-label {
   margin-bottom: 4px;
- margin-right: auto;
+  margin-right: auto;
   height: 14px;
 
   font-weight: 400;
@@ -301,6 +301,7 @@ border-radius: 4px;
 }
 
 .form-input {
+  outline: none;
   padding: 0px;
   min-height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -308,13 +309,15 @@ border-radius: 4px;
 }
 
 .form-input:hover,
-.form-input:focus {
+.form-input:focus,
+.form-textarea:hover,
+.form-textarea:focus {
   border: 1px solid #2196F3;
- 
 }
 
 
 .form-textarea {
+  outline: none;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
