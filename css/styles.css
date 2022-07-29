@@ -331,6 +331,16 @@ border-radius: 4px;
   color: var(--basic-color); 
 }
 
+.input-checkbox {
+  width: 16px;
+  height: 15px;
+}
+
+.terms {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
 .btn-form {
   padding: 10px 55px 10px 56px;
   margin-bottom: 40px;
