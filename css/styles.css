@@ -278,21 +278,22 @@ border-radius: 4px;
   margin-bottom: 20px;
 }
 
-.form-group {
+.form-label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-label {
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
-.form-group:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.form-label {
+  .form-name {
   margin-bottom: 4px;
   margin-right: auto;
+  width: 25px;
   height: 14px;
-
+  
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -320,8 +321,9 @@ border-radius: 4px;
   border: 1px solid #2196F3;
 }
 
-.form-icon {
+.form-item {
   position: absolute;
+  display: flex;
   bottom: 11px;
   left: 12px;
 
@@ -329,7 +331,7 @@ border-radius: 4px;
   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus ~ .form-icon {
+.form-input:focus ~ .form-item {
   fill: #2196F3;
 }
 
