@@ -362,19 +362,32 @@ textarea::placeholder {
 }
 
 .input-checkbox {
-  margin-right: 7px;
+  appearance: none;
+  /* margin-right: 7px;
   width: 16px;
-  height: 15px;
+  height: 15px; */
+}
+
+.input-checkbox:checked + .form-check {
+  background-color: #2196F3;
+  border-color: var(--accent-color);
+}
+
+.form-check {
+  margin-right: 7px;
+  border: solid 2px var(--secondary-color);
+  border-radius: 2px;
 }
 
 .terms {
   position: relative;
+  margin-left: 3px;
   color: var(--accent-color);
 }
 
 .strip:after {
     position: absolute; 
-    content: "";
+    content: " ";
     left: 0px;
     bottom: 1px;
     width: 100%;
