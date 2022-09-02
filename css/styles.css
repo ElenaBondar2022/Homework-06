@@ -159,7 +159,8 @@ section {
   margin-right: 10px;
 }
 
-/* Первая секция */
+/* HERO  */
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -176,9 +177,9 @@ section {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/Img.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -307,9 +308,7 @@ border-radius: 4px;
 
 .form-text {
   position: absolute;
-  top: -18px;
-  width: 25px;
-  height: 14px;
+  top: -16px;
   
   font-size: 12px;
   line-height: 1.16;
@@ -321,7 +320,6 @@ border-radius: 4px;
 .form-input {
   outline: none;
   height: 40px;
-  padding: 12px;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
